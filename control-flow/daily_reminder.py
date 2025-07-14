@@ -1,12 +1,12 @@
 # Personal Daily Reminder
 task = input("Enter a task: ")
-priority = str(input("Is it time-bound? (yes/no): "))
-time_bound = str(input("Priority (high/medium/low): "))
+priority = str(input("Priority (high/medium/low): "))
+time_bound = str(input("Is it time-bound? (yes/no): "))
 
 match priority:
     case "high":
         if time_bound == "yes":
-            print(f"Reminder: 'Finish {task}' is a {priority} priority task that requires immediate attention today!")
+            print(f"Task: '{task}' is a {priority} priority task that requires immediate attention today!")
         else:
             print(f"Reminder: This is a {priority} priority task.")
     case "medium":
