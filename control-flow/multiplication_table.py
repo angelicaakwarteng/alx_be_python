@@ -1,5 +1,4 @@
 #Using a for loop to generate and print the multiplication table for a given number.
 number = int(input("Enter a number to see its multiplication table:"))
 for i in range(1, 11):
-    table = str(number) + " * " + str(i)
-    print(f"{table} = {number*i}")
+    print(f"{str(number)} *  {str(i)} = {number*i}")
