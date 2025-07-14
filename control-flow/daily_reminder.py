@@ -1,5 +1,5 @@
 # Personal Daily Reminder
-task = str(input("Enter a task: "))
+task = input("Enter a task: ")
 priority = str(input("Is it time-bound? (yes/no): "))
 time_bound = str(input("Priority (high/medium/low): "))
 
