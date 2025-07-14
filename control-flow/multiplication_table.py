@@ -2,5 +2,4 @@
 number = int(input("Enter a number to see its multiplication table:"))
 for i in range(1, 11):
     table = str(number) + " * " + str(i)
-    answer = number*i
-    print(f"{table} = {answer}")
+    print(f"{table} = {number*i}")
