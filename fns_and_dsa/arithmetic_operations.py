@@ -4,7 +4,7 @@ def perform_operation(num1, num2, operation):
             return num1 + num2
         case 'subtract':
             return num1 - num2
-        case 'multiplication':
+        case 'multiply':
             return num1 * num2
-        case division:
+        case 'divide':
             return num1 / num2
