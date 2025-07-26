@@ -16,7 +16,7 @@ def convert_to_fahrenheit(celsius):
 
 # User interaction
 def main():
-        temp_input = input("Enter the temperature (e.g., 32): ")
+        temp_input = input("Enter the temperature to convert (e.g., 32): ")
         unit = input("Is this in Celsius or Fahrenheit? (C/F): ").strip().upper()
 
         # Validate the temperature value
