@@ -6,3 +6,4 @@ def display_menu():
     print("4. Exit")
 
 shopping_list = []
+item = input('Enter the item to add: ')
