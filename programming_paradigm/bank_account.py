@@ -8,6 +8,7 @@ class BankAccount:
         return BankAccount
 
     def withdraw(self, amount):
+        BankAccount = self.account_balance
         if amount < self.account_balance:
             BankAccount = self.account_balance - amount
         return f"Withdrew: {amount}. Your new balance is {BankAccount}"
