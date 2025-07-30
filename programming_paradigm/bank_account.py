@@ -8,7 +8,8 @@ class BankAccount:
         return BankAccount
 
     def withdraw(self, amount):
-        self.account_balance -= amount
+        if BankAccount == self.account_balance:
+            self.account_balance -= amount
 
     def display_balance(self):
         return f"Current Balance: $ {self.account_balance}"
