@@ -3,9 +3,7 @@ class BankAccount:
         self.account_balance = initial_balance
 
     def deposit(self, amount):
-        BankAccount = 0
         self.account_balance += amount
-        return BankAccount.append(self.account_balance)
 
     def withdraw(self, amount):
         self.account_balance -= amount
