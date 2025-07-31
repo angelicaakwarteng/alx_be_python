@@ -3,6 +3,9 @@ class Book:
         self.title = title
         self.author = author
         self._is_checked_out = False
+
+    def return_book(self):
+        return True
     
 
 class Library:
