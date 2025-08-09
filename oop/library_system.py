@@ -20,7 +20,7 @@ class PrintBook(Book):
 class Library:
     # creating attribute called books, a list to store instances of Book, EBook, and PrintBook
     def __init__(self):
-        self.books= []
+        self.books = []
 
     def add_book(self, book):
         self.books.append(book)    
